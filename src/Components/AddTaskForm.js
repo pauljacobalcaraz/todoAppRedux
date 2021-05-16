@@ -37,8 +37,12 @@ class AddTaskForm extends React.Component {
 						}
 					/>
 					{this.state.requiredMessage}
-					<br />
-					<button onClick={this.btnAddNewTask}>Add new task</button>
+					<button
+						onClick={this.btnAddNewTask}
+						className='btn btn-primary mb-2 ml-2'
+					>
+						Add new task
+					</button>
 				</div>
 			</>
 		);

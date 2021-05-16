@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button, Badge } from 'react-bootstrap';
 import { connect } from 'react-redux';
 
 class ToDo extends React.Component {
@@ -12,14 +13,34 @@ class ToDo extends React.Component {
 	};
 	render() {
 		return (
-			<>
-				<button onClick={() => this.props.deleteTask(this.props.task.id)}>
-					x
-				</button>
-				{this.props.task.name + ' ' + this.props.task.status}{' '}
-				<button onClick={this.btnDone}>Done</button>
-				<hr />
-			</>
+			<div className='d-flex justify-content-center'>
+				{/* 	{task.name}
+                {task.status} */}
+				<Button variant='primary' className=' my-1'>
+					{this.props.task.name}{' '}
+					<Badge variant='light'>{this.props.task.status}</Badge>
+				</Button>
+				<div className='my-1'>
+					<Button
+						variant='danger'
+						className='mx-1 p-1'
+						onClick={() => this.props.deleteTask(this.props.task.id)}
+					>
+						✗
+					</Button>
+					{this.props.task.status === 'Pending' ? (
+						<Button
+							variant='success'
+							className='mx-1 p-1'
+							onClick={this.btnDone}
+						>
+							✓
+						</Button>
+					) : (
+						''
+					)}
+				</div>
+			</div>
 		);
 	}
 }

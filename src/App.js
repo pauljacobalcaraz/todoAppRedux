@@ -7,7 +7,9 @@ function App() {
 		<div className='App'>
 			<header className='App-header'>
 				<AddTaskForm />
-				<ToDoList />
+				<div className=' col-10 d-flex justify-content-around'>
+					<ToDoList />
+				</div>
 			</header>
 		</div>
 	);
