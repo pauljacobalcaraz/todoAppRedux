@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/todoAppRedux/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/todoAppRedux/static/js/main.cffba70f.chunk.js",
-    "main.js.map": "/todoAppRedux/static/js/main.cffba70f.chunk.js.map",
-    "runtime-main.js": "/todoAppRedux/static/js/runtime-main.79a7025d.js",
-    "runtime-main.js.map": "/todoAppRedux/static/js/runtime-main.79a7025d.js.map",
-    "static/js/2.a8cf9a6b.chunk.js": "/todoAppRedux/static/js/2.a8cf9a6b.chunk.js",
-    "static/js/2.a8cf9a6b.chunk.js.map": "/todoAppRedux/static/js/2.a8cf9a6b.chunk.js.map",
-    "static/js/3.5a30877a.chunk.js": "/todoAppRedux/static/js/3.5a30877a.chunk.js",
-    "static/js/3.5a30877a.chunk.js.map": "/todoAppRedux/static/js/3.5a30877a.chunk.js.map",
+    "main.css": "/todoAppRedux/static/css/main.2d65ea98.chunk.css",
+    "main.js": "/todoAppRedux/static/js/main.9ce40f0f.chunk.js",
+    "main.js.map": "/todoAppRedux/static/js/main.9ce40f0f.chunk.js.map",
+    "runtime-main.js": "/todoAppRedux/static/js/runtime-main.0329c528.js",
+    "runtime-main.js.map": "/todoAppRedux/static/js/runtime-main.0329c528.js.map",
+    "static/css/2.150d169a.chunk.css": "/todoAppRedux/static/css/2.150d169a.chunk.css",
+    "static/js/2.3bd07c0f.chunk.js": "/todoAppRedux/static/js/2.3bd07c0f.chunk.js",
+    "static/js/2.3bd07c0f.chunk.js.map": "/todoAppRedux/static/js/2.3bd07c0f.chunk.js.map",
+    "static/js/3.c246c561.chunk.js": "/todoAppRedux/static/js/3.c246c561.chunk.js",
+    "static/js/3.c246c561.chunk.js.map": "/todoAppRedux/static/js/3.c246c561.chunk.js.map",
     "index.html": "/todoAppRedux/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/todoAppRedux/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.a8cf9a6b.chunk.js.LICENSE.txt": "/todoAppRedux/static/js/2.a8cf9a6b.chunk.js.LICENSE.txt"
+    "static/css/2.150d169a.chunk.css.map": "/todoAppRedux/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.2d65ea98.chunk.css.map": "/todoAppRedux/static/css/main.2d65ea98.chunk.css.map",
+    "static/js/2.3bd07c0f.chunk.js.LICENSE.txt": "/todoAppRedux/static/js/2.3bd07c0f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.79a7025d.js",
-    "static/js/2.a8cf9a6b.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.cffba70f.chunk.js"
+    "static/js/runtime-main.0329c528.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.3bd07c0f.chunk.js",
+    "static/css/main.2d65ea98.chunk.css",
+    "static/js/main.9ce40f0f.chunk.js"
   ]
 }
